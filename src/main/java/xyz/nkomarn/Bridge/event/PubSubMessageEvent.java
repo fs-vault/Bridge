@@ -1,7 +1,7 @@
 package xyz.nkomarn.Bridge.event;
 
 /**
- * Fired when a Pub/Sub message is received
+ * Represents a Pub/Sub message that has been received
  */
 public class PubSubMessageEvent {
     private final String channel;
